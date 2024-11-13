@@ -7,7 +7,7 @@ Xalqaro valyuta konvertori workflow'si.
 O'rnatish
 ----------------
 
-- "[currency_converter]([https://github.com/Javohir4401/currency_converter/edit/main])" kengaytmasini yuklab oling.
+- "[currency_converter](https://github.com/Javohir4401/currency_converter.git)" kengaytmasini yuklab oling.
 - Yuklab olingan "currency_converter" faylini ikki marta bosing va o‘rnating.
 *Alfred 2 dasturi talab qilinadi.*
 
