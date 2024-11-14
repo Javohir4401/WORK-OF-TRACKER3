@@ -44,6 +44,8 @@ Valyutalarni yangilash
 
 Standart valyutalar aftomatik tarzda API yordamida yangilanadi.
 
+
+
 OB HAVO MALUMOTLARI
 ============
 
@@ -57,6 +59,8 @@ Shaxarlarni qidirganda aftomatik tarda saqlanib ketadi va uni ochirsa boladi.
 
 Qidirganda tanlangan shaxarni nomi , xozirda ob havosi qanaqaligi , Harorati
 Namligi , Shamol tezligi , Bosimi chiqadi.
+
+
 
 
 Qo'llab-quvvatlanadigan valyutalar
