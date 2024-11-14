@@ -1,15 +1,12 @@
 <?php
 session_start();
 
-// Foydalanuvchi tanlagan tilni saqlash
 if (isset($_GET['lang'])) {
     $_SESSION['lang'] = $_GET['lang'];
 }
 
-// Default tilni belgilash
 $lang = $_SESSION['lang'] ?? 'uz';
 
-// Matnlarni o‘zbekcha, ruscha va inglizcha tarjimalari
 $texts = [
     'uz' => [
         'title' => "OB HAVO MA'LUMOTLARI",
@@ -58,7 +55,6 @@ $texts = [
     ]
 ];
 
-// Qidiruv tarixini tozalash
 if (isset($_POST['clear_history'])) {
     unset($_SESSION['history']);
 }
@@ -105,7 +101,6 @@ if (isset($_POST['clear_history'])) {
 </head>
 <body>
 <div class="container">
-    <!-- Tilni tanlash tugmalari -->
     <div class="language-buttons">
         <a href="?lang=uz" class="btn btn-outline-primary <?php echo $lang == 'uz' ? 'active' : ''; ?>">UZ</a>
         <a href="?lang=ru" class="btn btn-outline-primary <?php echo $lang == 'ru' ? 'active' : ''; ?>">RU</a>
@@ -145,14 +140,12 @@ if (isset($_POST['clear_history'])) {
                 echo "<p><i class='fas fa-tachometer-alt'></i> <strong>{$texts[$lang]['pressure']}:</strong> {$pressure} hPa</p>";
                 echo "</div>";
 
-                // Qidiruv tarixini sessiyada saqlash
                 $_SESSION['history'][] = ['location' => $location, 'temp' => $temp, 'description' => $description];
             } else {
                 echo "<p class='mt-4 text-danger'>{$texts[$lang]['error']}</p>";
             }
         }
 
-        // Qidiruv tarixini ko'rsatish
         if (isset($_SESSION['history']) && count($_SESSION['history']) > 0) {
             echo "<div class='history mt-5'>";
             echo "<h5>{$texts[$lang]['history']}</h5><ul>";
