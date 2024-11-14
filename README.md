@@ -1,4 +1,4 @@
-Currency Converter AND WEATHER
+CURENCY CONVERTER AND WEATHER
 ============
 
 Xalqaro valyuta konvertori workflow'si.
