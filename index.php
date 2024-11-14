@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p class="text-muted">If you’ve got a target exchange rate in mind but haven’t got time to keep tabs on market
         movement, then a firm order could be perfect for you. When your chosen rate is reached, we’ll act immediately,
         leaving you free to concentrate on your business.</p>
-    <button class="btn btn-outline-danger">Find out more</button>
+        <button class="btn btn-outline-danger" onclick="window.open('obhavo.php')">Find out more</button>
 </div>
 </body>
 </html>
