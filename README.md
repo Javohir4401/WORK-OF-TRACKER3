@@ -1,4 +1,22 @@
-CURENCY CONVERTER AND WEATHER
+OB HAVO MALUMOTLARI
+============
+
+index.php faylidagi "Find out more" tugmasini bosganda obhavo.php
+fayliga otadi.
+
+Bu faylni uch hil tilga ozgartirsa boladi UZ RU ENG yani
+UZBEKCHA RUSCHA ENGLISHCHA ga.
+
+Shaxarlarni qidirganda aftomatik tarda saqlanib ketadi va uni ochirsa boladi.
+
+Qidirganda tanlangan shaxarni nomi , xozirda ob havosi qanaqaligi , Harorati
+Namligi , Shamol tezligi , Bosimi chiqadi.
+
+
+
+
+
+CURENCY CONVERTER
 ============
 
 Xalqaro valyuta konvertori workflow'si.
@@ -43,24 +61,6 @@ Valyutalarni yangilash
 ----------------
 
 Standart valyutalar aftomatik tarzda API yordamida yangilanadi.
-
-
-
-OB HAVO MALUMOTLARI
-============
-
-index.php faylidagi "Find out more" tugmasini bosganda obhavo.php
-fayliga otadi.
-
-Bu faylni uch hil tilga ozgartirsa boladi UZ RU ENG yani
-UZBEKCHA RUSCHA ENGLISHCHA ga.
-
-Shaxarlarni qidirganda aftomatik tarda saqlanib ketadi va uni ochirsa boladi.
-
-Qidirganda tanlangan shaxarni nomi , xozirda ob havosi qanaqaligi , Harorati
-Namligi , Shamol tezligi , Bosimi chiqadi.
-
-
 
 
 Qo'llab-quvvatlanadigan valyutalar
